@@ -3,7 +3,7 @@ from coapthon import defines
 from coapthon.messages.request import Request
 
 
-host = "https://files.000webhost.com/"
+host "127.0.0.1"
 port = 5683
 path ="basic"
 payload = 'text/plain'
